@@ -106,7 +106,160 @@ span{
 }
 /* div 2 */
 /* box1 */
-.pannel{
+.panel{
     display: flex;
+    height:40px ;
+    background-color:#222f3d ;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center 
+    
+}
+.pannel-all i{
+    
+}
+.panel-all{
+    display: flex;
+    
+    
+    
+}
+.panel-options {
+    width: 70%;
+    font-size: 0.85rem;
+
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight:700px;
+    
+}
+/* hero-section */
+.hero-section{
+    background-image: url("img_jpg.jpeg");
+    background-size: cover;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 85%;
+    /* position: absolute;
+    bottom: 350px;
+    margin-left: 50px; */
+    margin-bottom: 25px;
+    
+    
+
+    
+    
+
+}
+.hero-message a{
+    color: #007185;
+}
+/* shop-section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    
+}
+.box{
+    /* border:2px solid black ; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px ;
+    margin-top: 15px;
+    
+   
+}
+.box1{
+    
+
+}
+.box-img{
+    background-image: url("img5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:300px ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-img p{
+    position: relative;
+    top: 350px;
+    color: #007185;;
 }
   
+   .box-content{
+       margin-left:10px ;
+       margin-right: 10px; ;
+   }
+  .box-img4{
+    background-image: url("img4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:300px ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+  }
+  .box-img4 p{
+    position: relative;
+    top: 320px;
+    color: #007185;;
+    
+  }
+  .box-img3{
+    background-image: url("img3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:300px ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+  }
+  .box-img3 p{
+    position: relative;
+    top: 320px;
+    color: #007185;;
+  }
+  .box-img2{
+    background-image: url("img2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:300px ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+  }
+  .box-img2 p{
+    position: relative;
+    top: 320px;
+    color: #007185;;
+  }
