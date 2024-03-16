@@ -178,6 +178,7 @@ a{
 /* shop-section */
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: lightgray;
     
