@@ -89,7 +89,7 @@
 
 }
 span{
-    font: size 0.75rem; ;
+    font- size 0.75rem; ;
 }
 .nav-second{
     font-size:0.85rem ;
@@ -182,6 +182,8 @@ a{
     justify-content: space-evenly;
     background-color: lightgray;
     
+    
+    
 }
 .box{
     /* border:2px solid black ; */
@@ -190,6 +192,8 @@ a{
     background-color: white;
     padding: 20px 0px 15px ;
     margin-top: 15px;
+    
+    
     
    
 }
@@ -205,6 +209,7 @@ a{
     height:300px ;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    
 }
 .box-img p{
     position: relative;
